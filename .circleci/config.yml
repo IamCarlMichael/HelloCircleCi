@@ -5,6 +5,12 @@ jobs:
       - image: buildpack-deps:trusty
     steps:
       - run:
+          name: "Package Manager installation"
+          command: "npm install"
+      - run:
+          name: "Run test"
+          command: "npm test"
+      - run:
           name: "echo hello"
           command: "echo hello"
 

@@ -2,7 +2,7 @@ version: 2
 jobs:
   test:
     docker:
-      - image: buildpack-deps:trusty
+      - image: node 12.13.0-alpine
     steps:
       - checkout
       - run:

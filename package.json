@@ -1,0 +1,24 @@
+{
+  "name": "hellocircleci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test:watch": "jest --watch",
+    "start:dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamCarlMichael/HelloCircleCi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IamCarlMichael/HelloCircleCi/issues"
+  },
+  "homepage": "https://github.com/IamCarlMichael/HelloCircleCi#readme",
+  "dependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
